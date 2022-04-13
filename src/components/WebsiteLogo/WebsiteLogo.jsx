@@ -5,7 +5,7 @@ const WebsiteLogo = () => {
   return (
     <figure className="logo-container">
       <img src={logo} alt="Website Logo" className="navbar-logo" />
-      <figcaption className="has-text-white">E-Commerce</figcaption>
+      <figcaption className="has-text-white">Tu Tienda On-Line</figcaption>
     </figure>
   );
 };

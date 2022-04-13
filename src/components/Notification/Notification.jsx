@@ -26,7 +26,7 @@ const Notification = () => {
               className={`button is-${notification.type}`}
               onClick={clickHandler}
             >
-              Close
+              Cerrar
             </button>
           </div>
         </article>

@@ -30,12 +30,12 @@ const ItemDetail = ({ item }) => {
         </h2>
         <p className="has-text-centered-mobile">
           <small className="tag is-info is-light mb-3">
-            Stock available: {item.stock}
+            En Stock: {item.stock}
           </small>
         </p>
-        <p className="mb-3">{item.description}</p>
+        <p className="mb-3">{item.descripcion}</p>
         <p className="has-text-centered-mobile mb-3">
-          <b className="is-size-4-mobile is-size-5-desktop"> ${item.price} </b>
+          <b className="is-size-4-mobile is-size-5-desktop"> ${item.precio} </b>
         </p>
         <div className="has-text-centered-mobile">
           <div className="block mb-3">
@@ -48,7 +48,7 @@ const ItemDetail = ({ item }) => {
                   title="Add to cart"
                   onClick={clickHandler}
                 >
-                  Add to cart
+                  Agregar
                 </button>
               </Link>
             ) : (
@@ -63,9 +63,9 @@ const ItemDetail = ({ item }) => {
                 hasFinish ? "is-warning" : "is-success"
               } is-light`}
               onClick={updateFinish}
-              title={hasFinish ? "Update your order" : "Confirm your order"}
+              title={hasFinish ? "Actualize su orden" : "Confirme su orden"}
             >
-              {hasFinish ? "Update your order" : "Confirm your order"}
+              {hasFinish ? "Actualize su orden" : "Confirme su orden"}
             </button>
           </div>
         </div>

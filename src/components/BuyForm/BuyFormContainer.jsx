@@ -14,9 +14,9 @@ const BuyFormContainer = WithNotification(() => {
 
     const createErrorNotification = (items) => {
       createNotification(
-        "Error on submit your order 😱",
-        "Some of your products are out of stock. Your cart has been updated",
-        "danger",
+        "Error en cargar su orden 😱",
+        "algunos de sus productos no estan en stock",
+        "Cuidado",
         () => updateCart(items)
       );
     };
@@ -40,9 +40,9 @@ const BuyFormContainer = WithNotification(() => {
 
       const createSuccessNotification = (orderId) => {
         createNotification(
-          "Thanks for your purchase! 😊",
-          `Your order has been submited. Transaction id: ${orderId}.`,
-          "success",
+          "Gracias por su compra 😊",
+          `Su compra a sido exitosa. Id de compra: ${orderId}.`,
+          "Exitosa",
           clearCart
         );
       };

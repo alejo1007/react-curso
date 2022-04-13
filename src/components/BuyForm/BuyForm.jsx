@@ -25,7 +25,7 @@ const BuyForm = ({ submitHandler }) => {
 
       <div className="field">
         <label htmlFor="email" className="label">
-          Email
+          E-mail
         </label>
         <input
           type="email"
@@ -39,7 +39,7 @@ const BuyForm = ({ submitHandler }) => {
 
       <div className="field">
         <label htmlFor="telephone" className="label">
-          Telephone
+          Celular
         </label>
         <input
           type="tel"

@@ -25,7 +25,7 @@ const CartTable = () => {
             title="Delete order"
             onClick={removeFromCart}
           >
-            Delete
+            Borrar
           </button>
           <Link to={`/product/${id}`}>
             <button
@@ -33,7 +33,7 @@ const CartTable = () => {
               className="button is-warning is-light"
               title="Edit order"
             >
-              Edit
+              Editar
             </button>
           </Link>
         </td>

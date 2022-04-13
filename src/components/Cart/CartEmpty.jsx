@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const CartEmpty = () => {
   return (
     <div className="container has-text-centered">
-      <h2 className="title">Ti carro esta vacio</h2>
+      <h2 className="title">Tu carro esta vacio</h2>
       <Link to="/">
         <button role="link" className="button is-link is-light">
           Volver a productos

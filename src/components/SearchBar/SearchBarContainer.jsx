@@ -34,7 +34,7 @@ const SearchBarContainer = WithNotification(({ items }) => {
 
   return (
     <div className="section has-text-centered">
-      <h2 className="title mb-3">What're you looking for?</h2>
+      <h2 className="title mb-3">¿Que te gusatria comprar?</h2>
       {hasSubmitted ? (
         <Redirect to={`/product/${productSearched}`} />
       ) : (
