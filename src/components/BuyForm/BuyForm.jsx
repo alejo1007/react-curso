@@ -15,7 +15,7 @@ const BuyForm = ({ submitHandler }) => {
             name="fullname"
             id="fullname"
             pattern="^[a-zA-Z]+(?:\s?[a-zA-z]+)+"
-            placeholder="Insert your name"
+            placeholder="Nombre"
             minLength="3"
             required
           />
@@ -47,7 +47,7 @@ const BuyForm = ({ submitHandler }) => {
           id="telephone"
           className="input"
           pattern="^\d+\s{1}\d{3}-\d{4}$"
-          placeholder="123 456-7890"
+          placeholder="123-456-7890"
           required
         />
         <p className="help">Digito de area y numero</p>

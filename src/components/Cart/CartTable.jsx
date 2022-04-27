@@ -54,7 +54,7 @@ const CartTable = () => {
         <table className="table is-fullwidth has-text-centered is-hoverable is-striped">
           <thead>
             <tr>
-              <th scope="col">Product</th>
+              <th scope="col">Producto</th>
               <th scope="col">Cantidad</th>
               <th scope="col">Precio</th>
               <th scope="col">Subtotal</th>
